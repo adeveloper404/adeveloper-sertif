@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sertifikat Pengembangan</title>
+  <link rel="icon" type="image/png" href="assets/me.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.1?plugins=typography"></script>
+  
+  <style>
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #f1f1f1; }
+    ::-webkit-scrollbar-thumb { background: #888; border-radius: 4px; }
+    .sidebar-link.active {
+      background-color: #e0f2fe; 
+      color: #0284c7; 
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <div class="flex">
+    <aside id="sidebar" class="w-64 bg-white shadow-md fixed h-full flex flex-col transition-transform duration-300 ease-in-out z-40">
+      <a href="home.html" id="home-link" class="p-4 border-b block hover:bg-gray-50 transition-colors">
+        <h1 class="text-xl font-bold text-gray-700 flex items-center">
+          <svg xmlns="http://www.w.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          Sertifikat
+        </h1>
+      </a>
+      
+      <nav class="p-4 flex-grow overflow-y-auto">
+        <ul class="space-y-4">
+          <li>
+            <button data-category="inovasi" class="category-toggle w-full flex items-center justify-between text-left p-2 rounded-lg hover:bg-gray-100">
+              <span class="font-semibold text-gray-700">Inovasi & Teknologi</span>
+              <svg class="chevron-icon w-5 h-5 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+            </button>
+            <ul class="category-content hidden mt-2 space-y-2 pl-4">
+              <li><a href="sertifikat/inovtek/inovtek_001.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-5 w-5 mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>Sertifikat 001</a></li>
+              <li><a href="sertifikat/inovtek/inovtek_002.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-5 w-5 mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>Sertifikat 002</a></li>
+              <li><a href="sertifikat/inovtek/inovtek_003.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-5 w-5 mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>Sertifikat 003</a></li>
+              <li><a href="sertifikat/inovtek/inovtek_004.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-5 w-5 mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>Sertifikat 004</a></li>
+              <li><a href="sertifikat/inovtek/inovtek_005.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-5 w-5 mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>Sertifikat 005</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <button data-category="desain" class="category-toggle w-full flex items-center justify-between text-left p-2 rounded-lg hover:bg-gray-100">
+              <span class="font-semibold text-gray-700 text-sm">Desain & Metodologi</span>
+              <svg class="chevron-icon w-5 h-5 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+            </button>
+            <ul class="category-content hidden mt-2 space-y-2 pl-4">
+               <li><a href="sertifikat/demoto/demoto_001.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4M4 7v10M12 11v10M20 7v10"/></svg>Sertifikat 001</a></li>
+               <li><a href="sertifikat/demoto/demoto_002.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4M4 7v10M12 11v10M20 7v10"/></svg>Sertifikat 002</a></li>
+               <li><a href="sertifikat/demoto/demoto_003.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4M4 7v10M12 11v10M20 7v10"/></svg>Sertifikat 003</a></li>
+               <li><a href="sertifikat/demoto/demoto_004.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4M4 7v10M12 11v10M20 7v10"/></svg>Sertifikat 004</a></li>
+               <li><a href="sertifikat/demoto/demoto_005.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4M4 7v10M12 11v10M20 7v10"/></svg>Sertifikat 005</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <button data-category="kurikulum" class="category-toggle w-full flex items-center justify-between text-left p-2 rounded-lg hover:bg-gray-100">
+              <span class="font-semibold text-gray-700 text-sm">Kurikulum & Administrasi</span>
+              <svg class="chevron-icon w-5 h-5 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+            </button>
+            <ul class="category-content hidden mt-2 space-y-2 pl-4">
+              <li><a href="sertifikat/kurad/kurad_001.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>Sertifikat 001</a></li>
+              <li><a href="sertifikat/kurad/kurad_002.html" class="sidebar-link flex items-center p-2 rounded-lg hover:bg-gray-100 text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>Sertifikat 002</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main id="main-content" class="flex-1 p-6 md:p-12 transition-all duration-300 ease-in-out">
+        <header class="mb-6">
+            <div class="flex items-center justify-between">
+            <button id="sidebar-toggle-btn" class="p-2 rounded-md hover:bg-gray-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+            </button>
+            <div class="flex-grow"></div>
+            <p class="text-sm font-medium text-gray-500"><b>AdeveloperPorto</b></p>
+            </div>
+            <div class="mt-4 h-0.5 bg-gradient-to-r from-sky-400 to-blue-500"></div>
+        </header>
+      
+      <div id="content-container"></div>
+    </main>
+  </div>
+
+<script>
+// Seluruh kode JavaScript Anda sudah benar dan tidak perlu diubah.
+// Kode di bawah ini adalah salinan dari kode Anda yang sudah berfungsi dengan baik.
+document.addEventListener('DOMContentLoaded', function () {
+    const sidebar = document.getElementById('sidebar');
+    const mainContent = document.getElementById('main-content');
+    const sidebarToggleBtn = document.getElementById('sidebar-toggle-btn');
+    const contentContainer = document.getElementById('content-container');
+    const sidebarLinks = document.querySelectorAll('.sidebar-link');
+    const homeLink = document.getElementById('home-link');
+    const categoryToggles = document.querySelectorAll('.category-toggle');
+
+    document.addEventListener('contextmenu', e => e.preventDefault());
+    ['copy', 'cut', 'paste'].forEach(event => document.addEventListener(event, e => e.preventDefault()));
+
+    const loadContent = (url) => {
+        contentContainer.innerHTML = '<p class="text-gray-500">Memuat konten...</p>';
+        fetch(url)
+            .then(response => response.ok ? response.text() : Promise.reject('Halaman tidak ditemukan!'))
+            .then(html => { contentContainer.innerHTML = html; })
+            .catch(error => { contentContainer.innerHTML = `<p class="text-red-500">Gagal memuat: ${error}</p>`; });
+    };
+
+    const setActiveLink = (activeLink) => {
+        sidebarLinks.forEach(link => link.classList.remove('active'));
+        if(activeLink) activeLink.classList.add('active');
+    };
+    
+    sidebarToggleBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('-translate-x-full');
+        if (window.innerWidth >= 768) mainContent.classList.toggle('md:ml-64');
+    });
+
+    categoryToggles.forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const content = toggle.nextElementSibling;
+        const icon = toggle.querySelector('.chevron-icon');
+        content.classList.toggle('hidden');
+        icon.classList.toggle('rotate-180');
+      });
+    });
+
+    sidebarLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            loadContent(this.getAttribute('href'));
+            setActiveLink(this);
+            if (window.innerWidth < 768) sidebar.classList.add('-translate-x-full');
+        });
+    });
+    
+    homeLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        loadContent(homeLink.getAttribute('href'));
+        setActiveLink(null);
+        categoryToggles.forEach(toggle => {
+            toggle.nextElementSibling.classList.add('hidden');
+            toggle.querySelector('.chevron-icon').classList.remove('rotate-180');
+        });
+    });
+    
+    contentContainer.addEventListener('click', (e) => {
+        const card = e.target.closest('.category-card');
+        if (card) {
+            e.preventDefault();
+            const pageUrl = card.getAttribute('href');
+            const categoryId = card.getAttribute('data-category-target'); 
+            
+            loadContent(pageUrl);
+            
+            const categoryToggleInSidebar = document.querySelector(`.category-toggle[data-category="${categoryId}"]`);
+            if (categoryToggleInSidebar) {
+                const categoryContent = categoryToggleInSidebar.nextElementSibling;
+                if(categoryContent.classList.contains('hidden')) {
+                    categoryToggleInSidebar.click();
+                }
+                const firstLink = categoryContent.querySelector('.sidebar-link');
+                if (firstLink) setActiveLink(firstLink);
+            }
+        }
+    });
+
+    const initializePage = () => {
+        // Cek jika ada home.html sebelum memuatnya
+        if (homeLink && homeLink.getAttribute('href') === 'home.html') {
+            loadContent('home.html'); 
+        } else if (sidebarLinks.length > 0) {
+            // Jika tidak ada home, muat sertifikat pertama
+            const firstLink = sidebarLinks[0];
+            const firstCategoryContent = firstLink.closest('.category-content');
+            const firstCategoryToggle = firstCategoryContent.previousElementSibling;
+            
+            firstCategoryContent.classList.remove('hidden');
+            firstCategoryToggle.querySelector('.chevron-icon').classList.add('rotate-180');
+
+            loadContent(firstLink.getAttribute('href'));
+            setActiveLink(firstLink);
+        }
+        
+        if (window.innerWidth < 768) {
+           sidebar.classList.add('-translate-x-full');
+           mainContent.classList.remove('md:ml-64');
+        } else {
+           sidebar.classList.remove('-translate-x-full');
+           mainContent.classList.add('md:ml-64');
+        }
+    };
+
+    initializePage();
+});
+</script>
+
+</body>
+</html>
