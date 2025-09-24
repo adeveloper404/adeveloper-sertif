@@ -34,7 +34,7 @@
         <ul class="space-y-4">
           <li>
             <button data-category="inovasi" class="category-toggle w-full flex items-center justify-between text-left p-2 rounded-lg hover:bg-gray-100">
-              <span class="font-semibold text-gray-700">Inovasi & Teknologi</span>
+              <span class="font-semibold text-gray-700 text-sm">Inovasi & Teknologi</span>
               <svg class="chevron-icon w-5 h-5 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
             </button>
             <ul class="category-content hidden mt-2 space-y-2 pl-4">
@@ -149,6 +149,9 @@ document.addEventListener('DOMContentLoaded', function () {
             toggle.nextElementSibling.classList.add('hidden');
             toggle.querySelector('.chevron-icon').classList.remove('rotate-180');
         });
+        if (window.innerWidth < 768) {
+        sidebar.classList.add('-translate-x-full');
+        }
     });
     
     contentContainer.addEventListener('click', (e) => {
