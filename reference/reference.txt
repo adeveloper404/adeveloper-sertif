@@ -11,6 +11,7 @@ Kategori ini berisi semua sertifikat yang berkaitan dengan penerapan teknologi m
 * Teknik Super Cepat Menyusun RPP PM dengan Bantuan **Teknologi AI**
 * Teknik Mudah dan Inovatif Pemanfaatan Artificial Intelligence dalam Meningkatkan Kompetensi & Keterampilan Guru di Era Digital
 * Desain Pembelajaran Mendalam Pada Penerapan Koding Dan Kecerdasan Artifisial (Ka) Di Sekolah
+* Strategi Mudah Super Cepat:  Memanfaatkan ChatGPT & Gemini AI untuk Pembelajaran Menyenangkan
 
 ---
 ### 👨‍🏫 Desain & Metodologi Pembelajaran
@@ -28,3 +29,4 @@ Kategori ini mencakup pemahaman dan implementasi kurikulum serta pemenuhan tugas
 
 * Diklat Implementasi Pembelajaran Kokurikuler pada Kurikulum Nasional 2025
 * Diklat Strategi Pemenuhan **Beban Kerja Guru Sesuai Permendikdasmen** RI No 11 Tahun 2025
+* Kuasai Konsep Kokurikuler: Strategi Praktis Implementasi di Kurikulum Nasional 2025
