@@ -12,6 +12,9 @@ Kategori ini berisi semua sertifikat yang berkaitan dengan penerapan teknologi m
 * Teknik Mudah dan Inovatif Pemanfaatan Artificial Intelligence dalam Meningkatkan Kompetensi & Keterampilan Guru di Era Digital
 * Desain Pembelajaran Mendalam Pada Penerapan Koding Dan Kecerdasan Artifisial (Ka) Di Sekolah
 * Strategi Mudah Super Cepat:  Memanfaatkan ChatGPT & Gemini AI untuk Pembelajaran Menyenangkan
+* Cara Praktis Merancang LKPD Pembelajaran Mendalam dengan Bantuan Artificial Intelligence
+* Strategi Efektif Merancang Pembelajaran Digital Sesuai dengan Kebutuhan Siswa Menggunakan Artificial Intelligence
+* AI Training Multi Partner Class Worker Batch 2
 
 ---
 ### 👨‍🏫 Desain & Metodologi Pembelajaran
@@ -22,6 +25,7 @@ Kategori ini berfokus pada strategi, metode, dan perancangan materi ajar untuk m
 * Strategi Merancang Pembelajaran Mendalam & Bermakna Menuju Pendidikan Bermutu untuk Semua
 * Metode Super Mudah Merancang Pembelajaran Mendalam & Bermakna dengan Teknologi yang Mendukung
 * Meningkatkan Kemampuan Motorik Anak Melalui Pembelajaran Mendalam
+* Strategi Pembelajaran Menyenangkan di Bulan Ramadhan
 
 ---
 ### 📂 Kurikulum & Administrasi Guru
@@ -30,3 +34,8 @@ Kategori ini mencakup pemahaman dan implementasi kurikulum serta pemenuhan tugas
 * Diklat Implementasi Pembelajaran Kokurikuler pada Kurikulum Nasional 2025
 * Diklat Strategi Pemenuhan **Beban Kerja Guru Sesuai Permendikdasmen** RI No 11 Tahun 2025
 * Kuasai Konsep Kokurikuler: Strategi Praktis Implementasi di Kurikulum Nasional 2025
+
+### 📂 Psikologi Pendidikan
+Kategori baru ini sangat sesuai untuk diklat yang membahas perkembangan siswa dari sisi psikologis, karakter, dan mental, yang berbeda dari metodologi teknis atau kurikulum.
+
+* Membentuk Karakter Anak Melalui Psikologi Pendidikan di Era Digital
